@@ -4,11 +4,11 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Libraries links
 
-Design System: [Material Ui v4](https://v4.mui.com/)
-Graphql API library: [Apollo React](https://www.apollographql.com/docs/react/)
-API: [SpaceX GraphQL API](https://api.spacex.land/graphql/)
-Router: [React Router v6](https://reactrouter.com/)
-Testing: [RTL](https://testing-library.com/docs/react-testing-library/example-intro)
+* Design System: [Material Ui v4](https://v4.mui.com/)
+* Graphql API library: [Apollo React](https://www.apollographql.com/docs/react/)
+* API: [SpaceX GraphQL API](https://api.spacex.land/graphql/)
+* Router: [React Router v6](https://reactrouter.com/)
+* Testing: [RTL](https://testing-library.com/docs/react-testing-library/example-intro)
 
 ## Available Scripts
 
