@@ -1,3 +1,3 @@
-import Launches from './LaunchesContainer';
+import Launches from './Launches';
 
 export default Launches;
