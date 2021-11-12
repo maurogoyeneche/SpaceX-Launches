@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# SpaceX-Launches
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[Red, Green, Refactor](https://www.codecademy.com/articles/tdd-red-green-refactor)
 
 ## Libraries links
 
