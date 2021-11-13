@@ -123,11 +123,11 @@ describe('Launches', () => {
                 expect(launchSite).toHaveTextContent(/VAFB SLC 4E/i);
                 expect(launchDate).toHaveTextContent(/2020-10-24/i);
     
-                const withinRepo = within(mission);
+                const withinMission = within(mission);
     
-                const avatarImage = withinRepo.getByRole('img', { name: /Sentinel-6 Michael Freilich/i });
+                const avatarImage = withinMission.getByRole('img', { name: /Sentinel-6 Michael Freilich/i });
                 expect(avatarImage).toBeInTheDocument();
-                const anchor = withinRepo.getByRole('link', { name: /Sentinel-6 Michael Freilich/i });
+                const anchor = withinMission.getByRole('link', { name: /Sentinel-6 Michael Freilich/i });
                 expect(anchor).toHaveAttribute('href', '/launch/109');
                 expect(avatarImage).toHaveAttribute('src', 'https://live.staticflickr.com/65535/50630802488_8cc373728e_o.jpg');
             });
