@@ -132,7 +132,8 @@ describe('Launches', () => {
                 expect(avatarImage).toHaveAttribute('src', 'https://live.staticflickr.com/65535/50630802488_8cc373728e_o.jpg');
             });
     
-            it('should show total number of launches and the current number of results on table', async () => {
+            it(`there should be information about the pagination state by 
+                showing total count of the search and the current number of results on table`, async () => {
                 let paginatorText = screen.queryByText(/1\-30 of 109/i);
                 expect(paginatorText).not.toBeInTheDocument();
     

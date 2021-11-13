@@ -22,14 +22,15 @@ As a user, I want to take a quick look at the past spaceX launches and see detai
   - The header table should contain: 'Mision', 'Rocket', 'Launch Site', 'Launch date'
   - Each result should have: owner avatar image, mision name, rocket name, launch site, launch date.
     It should have a link over the mission name that redirect to the Launch Detail page about the launch.
-  - Total results number of the search and the current number of results.
-    Example: 1-10 of 100.
-  - A results size per page select/combobox with the options: 30, 50, 100. The
-    default is 30.
+  - Total results count of the search and the current number of results on table.
+    * Examples of first 30 results of total count of 100: `1-30 of 100`
+    * Examples of 30 results of total count of 344 between the 31 and 61: `31-61 of 344`
+  - A results size per page select/combobox with the options: `30`, `50`, `100`. The
+    default is `30`.
   - Next and previous pagination when the context applies to them, example: on
     the first page, the previous page should be disabled.
-  - If there is no results, then show a empty state message “You search has no
-    results”
+  - If there is no results, then show a empty state message `You search has no
+    results`
 - Handling filter:
   - If the user types "falcon" in the "filter by mission name" input and
     clicks on search, the app should return launches with the "falcon" word
