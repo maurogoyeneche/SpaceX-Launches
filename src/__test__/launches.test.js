@@ -31,7 +31,7 @@ describe('Launches', () => {
             expect(
                 screen.getByRole("heading", { name: /SpaceX Launches/i })
             ).toBeInTheDocument();
-        })
+        });
 
         it('there should be an input text with label "filter by mission name"', () => {
             expect(
