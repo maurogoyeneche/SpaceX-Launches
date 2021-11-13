@@ -50,7 +50,7 @@ describe('Launches', () => {
         });
     });
 
-    describe('after starting a search without using filter by mission name', () => {
+    describe('after starting a search without filling any value in filter by mission name input', () => {
         describe('with results', () => {
             it('search button should be disabled until the search is done.', async () => {
                 const searchBtn = screen.getByRole('button', { name: /search/i });
@@ -341,7 +341,7 @@ describe('Launches', () => {
         });
     });
 
-    describe('after starting a search using filter by mission name', () => {
+    describe('after starting a search using filter by mission name input', () => {
         it('should list only mission name that matches the entered filter', async () => {
             const inputFilter = screen.getByRole('textbox', { name: /mission Name/i });
             userEvent.type(inputFilter, 'starlink');
